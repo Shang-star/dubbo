@@ -1,0 +1,9 @@
+dubbo:
+  application:
+    name: dubbo-service-consumer-80
+  registry:
+    address: zookeeper://127.0.0.1:2181
+    timeout: 3000 # ms
+
+server:
+  port: 9000
